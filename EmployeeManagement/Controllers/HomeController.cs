@@ -31,5 +31,10 @@ namespace EmployeeManagement.Controllers
         {
             return "You are here";
         }
+
+        public string GetEmployee()
+        {
+            return "Here is your employee";
+        }
     }
 }
