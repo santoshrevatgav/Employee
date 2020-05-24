@@ -26,5 +26,10 @@ namespace EmployeeManagement.Controllers
 
             return View();
         }
+
+        public string GetDetails()
+        {
+            return "You are here";
+        }
     }
 }
